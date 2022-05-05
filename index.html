@@ -4,36 +4,45 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="fonts.css" />
     <link rel="stylesheet" href="style.css" />
     <title>stat4market</title>
   </head>
   <body>
     <header>
-      <div class="wrapper header_block">
-        <div class="header_block__left_side">
-          <div class="logo">
-            <a href="index.html"
+      <div class="wrapper header">
+        <div class="header-left-block">
+          <div class="header-left-block__logo">
+            <a class="header-left-block__link" href="index.html"
               ><img src="img/main/Logo.svg" alt="Логотип"
             /></a>
           </div>
 
-          <div class="navigation">
-            <a class="navigation__analitics" href="##">Аналитика</a>
-            <a class="navigation__educations" href="##">Обучение</a>
-          </div>
+          <nav class="header-left-block__navigation">
+            <a class="header-left-block__analitics" href="##">Аналитика</a>
+            <a
+              class="header-left-block__educations header-left-block__educations_active"
+              href="##"
+              >Обучение</a
+            >
+          </nav>
         </div>
 
-        <div class="header_block__right_side">
-          <div class="phone">
-            <img class="phone__img" src="img/icons/phone.svg" alt="Телефон" />
-            <a href="tel:84994503141">8 (499) 450-31-41</a>
+        <div class="header-right-block">
+          <div class="header-right-block__phone">
+            <img
+              class="header-right-block__phone-img"
+              src="img/icons/phone.svg"
+              alt="Телефон"
+            />
+            <a class="header-right-block__link" href="tel:84994503141"
+              >8 (499) 450-31-41</a
+            >
           </div>
 
-          <div class="login">
+          <div class="header-right-block__login">
             <button>
               <img
-                class="login__img"
+                class="header-right-block__login-img"
                 src="img/icons/login.svg"
                 alt="Логин"
               />Войти
@@ -42,7 +51,112 @@
         </div>
       </div>
     </header>
-    <main></main>
+
+    <main>
+      <div class="wrapper main">
+        <div class="main__breadcrumbs">
+          <a class="main__main-page" href="##">Главная</a>
+          <a class="main__education-page" href="index.html">Обучение</a>
+        </div>
+
+        <div class="main__content">
+          <div class="main__info">
+            <div class="main__title">
+              <h1>
+                <span>Обучающие курсы</span> для поставщиков на маркетплейсы
+              </h1>
+            </div>
+
+            <div class="main__price">
+              <img
+                class="main__bills"
+                src="img/icons/spent.svg"
+                alt="Кошелёк"
+              />
+              <p class="main__price-text">
+                от <span class="main_price-value">19 900</span
+                ><span class="ruble">₽</span>
+              </p>
+            </div>
+
+            <div class="main__subtitle">
+              <p class="main__text text">
+                Обучающие курсы по работе и продвижению на маркетплейсах от
+                практикующих селлеров
+              </p>
+              <p class="main__text text">
+                Добро пожаловать в Академию. Это место для эффективного
+                обучения, где мы рассказываем, как работают маркетплейсы и
+                никогда не вдаемся <br />
+                в теорию, которая не понадобится на практике.
+              </p>
+              <p class="main__text text">
+                Нащи уроки помогут понять логику работы площадок и взять
+                управление продажами в свои руки, а не действовать наугад.
+                Становись экспертом в работе с маркетплейсами и увеличивай свою
+                прибыль.
+              </p>
+            </div>
+          </div>
+          <div class="main__image">
+            <img src="img/main/Superman.svg" alt="Супермэн" />
+          </div>
+        </div>
+
+        <div class="main__subcontent wrapper">
+          <div class="main-sub__info">
+            <h3 class="main__subcontent-head subcontent_head">
+              Небольшая предыстория о том, <br />
+              почему нам можно доверять
+            </h3>
+          </div>
+
+          <div class="main-sub__content">
+            <div class="main-sub__left">
+              <img
+                class="main_sub__image"
+                src="img/main/prehistory1.svg"
+                alt=""
+              />
+            </div>
+
+            <div class="main-sub__right">
+              <p class="main-sub__text text">
+                Свой путь в бизнесе мы начали в 2016 г. У нас были свои
+                островные магазины в крупных ТЦ Москвы («Европейский»,
+                «Метрополис», «Мега» и др.), а также свой интернет-магазин. Мы
+                накопили большой опыт в продвижении своих товаров за счет
+                многочисленных запусков разных рекламных каналов и <br />
+                работы с блогерами.
+              </p>
+            </div>
+          </div>
+
+          <div class="main__subcontent-next">
+            <div class="main-sub__left-next">
+              <p class="main-sub__text-info text">
+                Летом 2019 года мы вышли на маркетплейсы и после работы с ними в
+                течение 2 месяцев приняли решение развивать только это
+                направление. И не прогадали. Весь накопленный опыт мы направили
+                на улучшение и продвижение наших брендов.
+              </p>
+              <p class="main-sub__text-info text">
+                Пришло время поделится знаниями и лайфхаками, которые будут
+                собраны и доступны в нашей Академии stat4market.
+              </p>
+            </div>
+
+            <div class="main-sub__right-next">
+              <img
+                class="main_sub__image-next"
+                src="img/main/prehistory2.svg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
     <footer></footer>
   </body>
 </html>

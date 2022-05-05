@@ -1,0 +1,87 @@
+.wrapper {
+  margin-left: auto;
+  margin-right: auto; }
+
+.header {
+  width: 1530px;
+  margin-top: 35px;
+  font-family: lato, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.header-left-block, .header-right-block {
+  display: flex;
+  align-items: center; }
+
+.header-right-block {
+  margin-top: -4px;
+  justify-content: end; }
+
+.header-left-block__logo {
+  display: flex;
+  align-items: center;
+  margin-right: 31px; }
+
+.header-left-block__navigation {
+  margin-bottom: 3px; }
+  .header-left-block__navigation a {
+    text-decoration: none;
+    color: #331A2F;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px; }
+  .header-left-block__navigation .header-left-block__analitics {
+    margin-right: 73px;
+    position: relative; }
+    .header-left-block__navigation .header-left-block__analitics:hover::after {
+      transform: rotate(180deg);
+      transition: all 0.5s ease; }
+  .header-left-block__navigation .header-left-block__analitics::after {
+    position: absolute;
+    top: 14px;
+    right: -25px;
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 9px 6px 0 6px;
+    border-color: #351a2f transparent transparent transparent;
+    transition: all 0.5s ease;
+    border-radius: 3px; }
+  .header-left-block__navigation .header-left-block__educations_active {
+    color: #ae1aae; }
+
+.header-right-block__phone {
+  margin-right: 36px; }
+  .header-right-block__phone .header-right-block__phone-img {
+    width: 24px;
+    margin-right: 7px;
+    margin-top: 6px; }
+  .header-right-block__phone a {
+    text-decoration: none;
+    color: #331A2F;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px; }
+
+.header-right-block__login button {
+  background: #CF51CE;
+  border-radius: 12px;
+  border: none;
+  width: 169px;
+  height: 45px;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 35px;
+  color: #FFFFFF;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  margin-left: 54px; }
+  .header-right-block__login button:hover {
+    background: #16c216; }
+.header-right-block__login .header-right-block__login-img {
+  margin-right: 14px;
+  margin-top: 7px; }
+
+/*# sourceMappingURL=header.css.map */
