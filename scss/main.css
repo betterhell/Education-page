@@ -2,18 +2,22 @@
   margin-left: auto;
   margin-right: auto; }
 
+body {
+  background: url(img/backgrond/BG\ Ellipse\ top\ left.svg) no-repeat, url(img/backgrond/BG\ Ellipse\ middle\ right.svg) no-repeat 100% 18%; }
+
 .main {
+  box-sizing: content-box;
   font-family: lato, sans-serif;
   margin-top: 70px;
-  width: 1530px; }
+  max-width: 1530px; }
   .main__breadcrumbs {
     margin-top: -6px;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px; }
     .main__breadcrumbs .main__main-page::after {
-      content: "\2014";
-      margin: 0 5px 0 4px; }
+      content: "\2013";
+      margin: 0 5px 0 8px; }
     .main__breadcrumbs a {
       text-decoration: none;
       color: rgba(51, 26, 47, 0.5); }
@@ -68,7 +72,8 @@
   font-weight: 400;
   font-size: 25px;
   line-height: 160%;
-  color: rgba(51, 26, 47, 0.8); }
+  color: rgba(51, 26, 47, 0.8);
+  font-family: lato, sans-serif; }
 
 .main__image {
   padding-left: 30px;
@@ -95,12 +100,15 @@
     max-width: 750px;
     margin-top: 15px; }
 
+.main__subcontent-head {
+  margin: 0 0 87px 0px; }
+
 .subcontent_head {
   font-weight: 700;
   font-size: 48px;
   line-height: 64px;
   text-align: center;
-  margin: 0 0 87px 0px; }
+  font-family: lato, sans-serif; }
 
 .main-sub__text {
   max-width: 750px; }
@@ -119,8 +127,8 @@
     max-width: 750px;
     margin-left: 131px; }
   .main__subcontent-next .main-sub__text-info:first-child {
-    margin: 96px 0 0 131px; }
+    margin: 103px 0 0 131px; }
   .main__subcontent-next .main-sub__text-info:last-child {
-    margin: 0 0 104px 131px; }
+    margin: 0 0 99px 131px; }
 
 /*# sourceMappingURL=main.css.map */

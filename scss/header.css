@@ -3,7 +3,7 @@
   margin-right: auto; }
 
 .header {
-  width: 1530px;
+  max-width: 1530px;
   margin-top: 35px;
   font-family: lato, sans-serif;
   display: flex;
@@ -57,7 +57,7 @@
   .header-right-block__phone .header-right-block__phone-img {
     width: 24px;
     margin-right: 7px;
-    margin-top: 6px; }
+    margin-bottom: 4px; }
   .header-right-block__phone a {
     text-decoration: none;
     color: #331A2F;
@@ -82,6 +82,6 @@
     background: #16c216; }
 .header-right-block__login .header-right-block__login-img {
   margin-right: 14px;
-  margin-top: 7px; }
+  margin-bottom: 5px; }
 
 /*# sourceMappingURL=header.css.map */

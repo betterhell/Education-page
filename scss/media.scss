@@ -1,0 +1,24 @@
+@import "variables";
+
+// header
+@media screen and (max-width: 1280px) {
+    .header {
+        margin-left: 40px;
+        margin-right: 40px;
+        height: 62px;
+    }
+
+    body {
+        background: url(img/backgrond/BG\ Ellipse\ top\ left.svg) no-repeat -60px -10px
+    }
+
+    .main {
+        max-width: $hd-width;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .footer__wrapper {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}

@@ -6,18 +6,22 @@
   margin-left: auto;
   margin-right: auto; }
 
+body {
+  background: url(img/backgrond/BG\ Ellipse\ top\ left.svg) no-repeat, url(img/backgrond/BG\ Ellipse\ middle\ right.svg) no-repeat 100% 18%; }
+
 .main {
+  box-sizing: content-box;
   font-family: lato, sans-serif;
   margin-top: 70px;
-  width: 1530px; }
+  max-width: 1530px; }
   .main__breadcrumbs {
     margin-top: -6px;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px; }
     .main__breadcrumbs .main__main-page::after {
-      content: "\2014";
-      margin: 0 5px 0 4px; }
+      content: "\2013";
+      margin: 0 5px 0 8px; }
     .main__breadcrumbs a {
       text-decoration: none;
       color: rgba(51, 26, 47, 0.5); }
@@ -72,7 +76,8 @@
   font-weight: 400;
   font-size: 25px;
   line-height: 160%;
-  color: rgba(51, 26, 47, 0.8); }
+  color: rgba(51, 26, 47, 0.8);
+  font-family: lato, sans-serif; }
 
 .main__image {
   padding-left: 30px;
@@ -99,12 +104,15 @@
     max-width: 750px;
     margin-top: 15px; }
 
+.main__subcontent-head {
+  margin: 0 0 87px 0px; }
+
 .subcontent_head {
   font-weight: 700;
   font-size: 48px;
   line-height: 64px;
   text-align: center;
-  margin: 0 0 87px 0px; }
+  font-family: lato, sans-serif; }
 
 .main-sub__text {
   max-width: 750px; }
@@ -123,16 +131,16 @@
     max-width: 750px;
     margin-left: 131px; }
   .main__subcontent-next .main-sub__text-info:first-child {
-    margin: 96px 0 0 131px; }
+    margin: 103px 0 0 131px; }
   .main__subcontent-next .main-sub__text-info:last-child {
-    margin: 0 0 104px 131px; }
+    margin: 0 0 99px 131px; }
 
 .wrapper {
   margin-left: auto;
   margin-right: auto; }
 
 .header {
-  width: 1530px;
+  max-width: 1530px;
   margin-top: 35px;
   font-family: lato, sans-serif;
   display: flex;
@@ -186,7 +194,7 @@
   .header-right-block__phone .header-right-block__phone-img {
     width: 24px;
     margin-right: 7px;
-    margin-top: 6px; }
+    margin-bottom: 4px; }
   .header-right-block__phone a {
     text-decoration: none;
     color: #331A2F;
@@ -211,7 +219,61 @@
     background: #16c216; }
 .header-right-block__login .header-right-block__login-img {
   margin-right: 14px;
-  margin-top: 7px; }
+  margin-bottom: 5px; }
+
+.wrapper {
+  margin-left: auto;
+  margin-right: auto; }
+
+.footer__wrapper {
+  margin-top: 144px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .footer__wrapper .footer__main-info {
+    max-width: 846px; }
+  .footer__wrapper .footer__header {
+    margin: 0 0 30px 0; }
+    .footer__wrapper .footer__header .footer__brend {
+      padding-bottom: 10px;
+      background-image: url(img/backgrond/border.svg);
+      background-repeat: no-repeat;
+      background-position: bottom; }
+    .footer__wrapper .footer__header .footer__number {
+      color: #CF51CE; }
+  .footer__wrapper .footer__text {
+    text-align: center;
+    margin-right: 10px; }
+
+.footer_wrapp {
+  max-width: 1529px; }
+
+.footer__additional-info {
+  margin-top: 67px;
+  font-family: lato, sans-serif;
+  display: flex;
+  justify-content: center; }
+
+.footer__column {
+  max-width: 290px; }
+  .footer__column .footer__add-img {
+    padding: 11px;
+    background-color: #CF51CE;
+    border-radius: 15px; }
+  .footer__column .footer__add-header {
+    margin: 27px 0 15px 0;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #331A2F; }
+  .footer__column .footer_add-text {
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%; }
+
+.footer__column:not(:last-child) {
+  margin-right: 123px; }
 
 @font-face {
   font-family: "lato";
@@ -228,5 +290,26 @@
   src: url("fonts/Lato-SemiboldItalic.woff") format("woff");
   font-weight: 600;
   font-style: italic; }
+.wrapper {
+  margin-left: auto;
+  margin-right: auto; }
+
+@media screen and (max-width: 1280px) {
+  .header {
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 62px; }
+
+  body {
+    background: url(img/backgrond/BG\ Ellipse\ top\ left.svg) no-repeat -60px -10px; }
+
+  .main {
+    max-width: 1280px;
+    margin-left: 40px;
+    margin-right: 40px; }
+
+  .footer__wrapper {
+    margin-left: 40px;
+    margin-right: 40px; } }
 
 /*# sourceMappingURL=style.css.map */

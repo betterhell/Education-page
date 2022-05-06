@@ -1,17 +1,23 @@
 @import "variables";
 
+body {
+    background: url(img/backgrond/BG\ Ellipse\ top\ left.svg) no-repeat,
+        	    url(img/backgrond/BG\ Ellipse\ middle\ right.svg) no-repeat 100% 18%;
+}
+
 .main {
+    box-sizing: content-box;
     font-family: $main-font;
     margin-top: 70px;
-    width: $container;
+    max-width: $container;
     &__breadcrumbs {
         margin-top: -6px;
         font-weight: 400;
         font-size: 16px;
         line-height: 19px;
         .main__main-page::after {
-            content: "\2014";
-            margin: 0 5px 0 4px;
+            content: "\2013";
+            margin: 0 5px 0 8px;
         }
         a {
             text-decoration: none;
@@ -34,7 +40,6 @@
             font-size: 56px;
             line-height: 80px;
             margin: 15px 0 0 0;
-            // word-spacing: 5px;
             color: $main-black-color;
             & span {
                color: $main-violet-color;
@@ -85,6 +90,7 @@
     font-size: 25px;
     line-height: 160%;
     color: rgba(51, 26, 47, 0.8);
+    font-family: $main-font
 }
 
 .main__image {
@@ -98,7 +104,6 @@
 
 .main__subcontent {
     margin-top: 132px;
-    // margin-left: 131px;
     margin-right: 0;
     display: flex;
     justify-content: center;
@@ -123,13 +128,16 @@
     }
 }
 
+.main__subcontent-head {
+    margin: 0 0 87px 0px;
+}
+
 .subcontent_head {
     font-weight: 700;
     font-size: 48px;
     line-height: 64px;
     text-align: center;
-    margin: 0 0 87px 0px;
-    font-family: $main-font;
+    font-family: $main-font
 }
 
 
@@ -155,9 +163,9 @@
 
     }
     .main-sub__text-info:first-child {
-        margin: 96px 0 0 131px
+        margin: 103px 0 0 131px
     }
     .main-sub__text-info:last-child {
-        margin: 0 0 104px 131px
+        margin: 0 0 99px 131px
     }
 }
