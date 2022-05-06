@@ -27,7 +27,7 @@
 }
 
 .footer_wrapp {
-    max-width: 1529px;
+    width: 1529px;
 }
 
 .footer__additional-info {
@@ -35,7 +35,8 @@
     margin-bottom: 100px;
     font-family: $main-font;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+
 }
 
 .footer__column {
